@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-i$grhdl=!2%uaq!_cz0r38z963_55jvafpfe@bx3u5ji*^n^))'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['skylinecovers.in','www.skylinecovers.in', '127.0.0.1']
+ALLOWED_HOSTS = ['skylinecovers.in','www.skylinecovers.in', '127.0.0.1', 'joshuadsilva1.github.io.']
 
 
 # Application definition
