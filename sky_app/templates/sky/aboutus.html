@@ -1,0 +1,208 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh; 
+            margin-top: 100px;
+        }
+
+        .left-half {
+            flex: 1; 
+            overflow: hidden; 
+        }
+
+
+        .left-half img{
+
+
+            height: 600px;
+            width: auto;
+
+
+        }
+        .right-half {
+            flex: 1; 
+            padding: 20px; 
+        }
+
+        img {
+            height: 200px; 
+            width: auto; 
+            display: block; 
+            margin: 0 auto; 
+        }
+
+        .navbar{
+
+           
+        
+            margin-top: 50px;
+        }
+       
+        .left-half p{
+
+            width: 200px;
+
+
+        }
+
+        .right-half p{
+
+            width: 200px;
+
+
+        }
+
+        .container{
+
+margin-top: 150px;
+
+        }
+
+        .mainhalf{
+            
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 20vh;
+            background-color: #f0f0f0;
+            
+
+
+        }
+
+        .mainhalf p{
+
+            width: 80%;
+            text-align: center;
+
+        }
+
+        .row3 a{
+
+
+            text-decoration: none;
+
+        }
+
+       
+    </style>
+</head>
+<body>
+
+
+ 
+<header>
+    <div class="logo">
+        <img src="/static/media/LOGOSKYLINE@3x.png" alt="Logo">
+    </div>
+
+</header>
+
+<nav class="navbar">
+ 
+    <a href="#">Journal</a>
+    <a href="{% url 'aboutus' %}">About Us</a>
+    <a href="#">Feedback</a>
+    <a href="#">More</a>
+  
+</nav>
+
+
+<div class="mainhalf">
+
+<p>Welcome to Skyline Covers, where we rock your favourites! 
+    Comprising the dynamic talents of 20-year-old musicians from the bustling streets of Mumbai,
+     our band is fueled by the passion for creating unforgettable musical experiences.</p>
+
+</div>
+
+
+
+<div class="container">
+    <div class="left-half">
+        <img src="{%static 'media/naythan2.jpeg'%}"  alt="Your Image">
+    </div>
+    <div class="right-half">
+
+       
+        <h2>Naythan Pereira</h2>
+        <p>Meet Naythan Pereira:
+            Naythan Pereira, our second vocalist, is the sonic storyteller who brings a unique narrative to each cover. 
+            His versatile vocals and stage presence add layers of depth to our interpretations.
+        <a href="https://www.instagram.com/naythan._.12?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" ><br>Instagram</a></p>
+       
+    </div>
+</div>
+
+<div class="container">
+    <div class="left-half">
+        <img src="{%static 'media/christopher2.jpeg'%}"  alt="Your Image">
+    </div>
+    <div class="right-half">
+        
+        <h2>Christopher Vaz</h2>
+        <p>Meet Christopher Vaz:
+            On the strings, Christopher Vaz is the maestro who transforms familiar tunes into guitar symphonies.
+            His skillful play and innovative arrangements elevate our covers, providing the perfect backdrop for our vocal magic. <a href="https://www.instagram.com/christophahaha_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><br>Instagram</a></p>
+       
+    </div>
+</div>
+
+<footer>
+    <br>
+    <br><br>
+        <div class="mainfoot">
+    
+           
+    
+     
+    
+            <div class="subfoot1">
+                
+    
+             
+          
+        <div class="row1">
+            <a href="https://www.youtube.com/@Skyline.Covers" class="fa fa-2x fa-youtube"></a>
+            <a href="https://www.instagram.com/skylinecovers.wav?igsh=MW15N2phZTA3Nm5leA%3D%3D&utm_source=qr" class="fa fa-2x fa-instagram"></a>
+            <a href="https://t.snapchat.com/AHecl5bT" class="fa fa-2x fa-snapchat-ghost"></a>
+            <a href="https://pin.it/5u6yAnGST" class="fa fa-2x fa-pinterest"></a>
+            <a href="https://www.facebook.com/profile.php?id=61556325330796&mibextid=opq0tG" class="fa fa-2x fa-facebook"></a>
+            <a href="https://www.threads.net/@skylinecovers.wav" class="fa-brands fa-threads"></a>
+            <a href="https://twitter.com/skylinecovers" class="fa fa-2x fa-twitter"></a>
+            <a href="https://www.linkedin.com/company/skylinecovers-music/" class="fa fa-2x fa-linkedin"></a>
+    
+        </div>
+       
+    
+    </div>
+    
+    </div>
+    
+    <br>
+    <div class="row2">
+        <a href="https://linktr.ee/SkylineCovers?utm_source=linktree_profile_share&ltsid=fe6966fb-6d81-4463-9d3e-1dc149c6b7ac">LinkTree</a>
+    </div>
+       
+    
+    
+    
+      </footer>
+</body>
+</html>
